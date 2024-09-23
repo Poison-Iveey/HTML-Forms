@@ -1,12 +1,50 @@
-section{
-    box-sizing: border-box;
-    border: 1px solid rgb(171, 171, 230);
-    width: 100%;
-    float: right;
+@font-face {
+    font-family:'Courier New', Courier, monospace;
+    src: url(fonts.css/);
 }
 
-img{
-    float: left;
+body{
+    display: flex;
+    gap: 20px;
 }
+main{
+    padding: 200px 0 0 0;
+}
+
+image-container{
+    position: relative;
+    width: 400px;
+    
+}
+
+
+.main-image{
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    position: absolute;
+    top: 450px;    
+    left: 50px;   
+    width: 100px; 
+    height: auto;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 500px;
+    left:150px;
+    color: antiquewhite;
+    
+    
+
+
+}
+button{
+    background-color: #596d48;
+}
+
+
 
 
